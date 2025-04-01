@@ -1,0 +1,8 @@
+title: KindKid27
+description: A personal website
+baseurl: "" # Leave empty for root
+url: "https://kindkid27.xyz"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
