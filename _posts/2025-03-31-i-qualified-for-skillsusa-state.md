@@ -3,6 +3,7 @@ layout: post
 title: "I Qualified For SkillsUSA State!"
 date: 2025-03-31 22:00:00 +0000
 categories: blog
+permalink: /posts/:title
 ---
 
 For those who don’t know, I’m really into computer programming. It’s been a big dream of mine to be a professional programmer for a long time now, at least halfway through Elementary school I knew programming was what I wanted to do.
