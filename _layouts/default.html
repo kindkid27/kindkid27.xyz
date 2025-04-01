@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-</head>
-<body>
-  <main>
-    {{ content }}
-  </main>
-</body>
-</html>
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/kindkid27.xyz/styles.css">
+
+<div id="container">
+    <div class="hotlinks">
+        <a href="/kindkid27.xyz/"><button class="button">Home</button></a>
+        <a href="/kindkid27.xyz/animals"><button class="button">My Animals</button></a>
+        <a href="/kindkid27.xyz/blog"><button class="button">Blog</button></a>
+        </div>
+    </div>
+        {{ content }}
+    </div>
+</div>
