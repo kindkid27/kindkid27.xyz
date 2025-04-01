@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/kindkid27.xyz/styles.css">
+
+<div id="container">
+    <div class="hotlinks">
+        <a href="/kindkid27.xyz/"><button class="button">Home</button></a>
+        <a href="/kindkid27.xyz/blog"><button class="button">Blog</button></a>
+    </div>
+    <h1>{{ page.title }}</h1>
+    <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+    <div class="post-content">
+        {{ content }}
+    </div>
+</div>

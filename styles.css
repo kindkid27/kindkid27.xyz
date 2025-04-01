@@ -113,3 +113,43 @@ button {
     text-align: center;
     
 }
+
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-list li {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed #ff6699;
+    background-color: #ffffcc;
+}
+
+.blog-list li a {
+    text-decoration: none;
+    color: #660066;
+}
+
+.blog-list li a h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #ff0066;
+}
+
+.blog-list li a p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #9900cc;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 18px;
+    line-height: 1.6;
+}
