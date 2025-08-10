@@ -22,3 +22,5 @@ I wanna give up
    
 But I'll hold out, just in case I can afford a cat when I move out.  
 School starts on the 13th of august (in 3 days), I'm excited to see what this year will bring.
+
+btw thanks to Keith Clark for the background (https://codepen.io/keithclark/pen/DQdKbg), he's awesome. 
