@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I Qualified For SkillsUSA State!"
-date: 2025-03-31 22:00:00 +0000
+date: 2025-03-31 22:00:00 -05:00
 categories: blog
 permalink: /posts/:title
 ---

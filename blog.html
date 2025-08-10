@@ -2,17 +2,29 @@
 layout: default
 title: Blog
 ---
-
-<h1>Blog</h1>
-<h2>Read My Latest Posts</h2>
-
-<ul class="blog-list">
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            <h3>{{ post.title }}</h3>
-            <p>{{ post.date | date: "%B %d, %Y" }}</p>
-        </a>
-    </li>
-    {% endfor %}
-</ul>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/animals/">Animals</a>
+        <a href="/index.html#gallery">Gallery</a>
+        <a href="/index.html#links">Links</a>
+    </nav>
+    <header>
+        <h1>KindKid's Blog</h1>
+        <p>Latest thoughts, updates, and cat news!</p>
+    </header>
+    <div class="intro">
+        <p>Welcome to my blog! (=^ω^=) Here you'll find my latest posts, updates, and kiggy adventures.</p>
+    </div>
+    <hr class="divider">
+    <ul class="blog-list">
+        {% for post in site.posts %}
+        <li style="background:#ffccff;border:2px dotted #ff66cc;padding:12px;margin:12px 0;border-radius:8px;list-style:none;">
+            <a href="{{ post.url | prepend: site.baseurl }}" style="color:#ff0066;text-decoration:none;font-family:'Comic Sans MS','Courier New',cursive;">
+                <h3 style="margin:0 0 6px 0;">{{ post.title }}</h3>
+                <p style="margin:0;font-size:14px;color:#9900cc;">{{ post.date | date: "%B %d, %Y" }}</p>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="signature">KindKid</div>
